@@ -1,10 +1,10 @@
 package epam.training.sweets;
 
-public class MysoreLaddu implements Sweet
+public class MysorePakLaddu implements Sweet
 {
 	String name;
 	int cost;
-	public MysoreLaddu()
+	public MysorePakLaddu()
 	{
 		setCost(38);
 	}
