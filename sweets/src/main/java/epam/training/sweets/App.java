@@ -6,7 +6,7 @@ public class App
     public static void main( String[] args )
     {
     	Scanner sc=new Scanner(System.in);
-    	System.out.print("Enter number of sweets : ");
+    	System.out.print("Enter sweets : ");
     	int n=sc.nextInt();
     	int i;
     	int sum=0;
@@ -15,15 +15,15 @@ public class App
     		System.out.print("Enter the name of the sweet : ");
     		String name=sc.next();
     		Sweet sw;
-    		if(name.equals("Gulab Jamun"))
-    			sw=new GulabJamun();
-    		else if(name.equals("Mysore Laddu"))
-    			sw=new MysoreLaddu();
-    		else if(name.equals("Kaju Barfi"))
-    			sw=new KajuBarfi();
+    		if(name.equals("Fried Gulab Jamun"))
+    			sw=new Fried Gulab Jamun();
+    		else if(name.equals("Mysorepak Laddu"))
+    			sw=new MysorepakLaddu();
+    		else if(name.equals("Kaju Halwa Special"))
+    			sw=new Kaju Halwa Special();
     		else
     		{
-    			System.out.println("No such sweet ");
+    			System.out.println("No sweet ");
     			i--;
     			continue;
     		}
